@@ -1,0 +1,73 @@
+@media screen and (max-width: 980px)  {
+    .main-content {
+         max-width: 600px;
+    }
+   
+}
+@media screen and (max-width: 885px)  {
+    .main-content {
+        
+        max-width: 488px;
+    }
+   
+}
+@media screen and (max-width: 768px)
+{
+    .main-content {
+        
+        max-width: 768px;
+    }
+    article{
+        display: none;
+    }
+    aside{
+        float: none;
+        margin-bottom: 20px;
+    }
+    aside .form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    table{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 470px)
+{
+    .table{
+        display: none;
+    }
+    .hours-list{
+        width: 100%;
+        text-align: center;
+        
+    }
+    .contacts{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .location{
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        
+    }
+}
+@media screen and (max-width: 375px)
+{
+.header-search {
+    
+    margin-top: -5px;
+}
+/*-----------Mobile-menu*/
+.header-list ul{
+    float: none;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+
+}
